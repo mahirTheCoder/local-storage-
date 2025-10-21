@@ -2,4 +2,3 @@
 @utility container {
   margin-inline: auto;
 }
-@custom-variant dark (&:where(.dark, .dark *));

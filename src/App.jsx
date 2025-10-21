@@ -1,11 +1,10 @@
 import React from 'react'
 import { createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import { createBrowserRouter } from 'react-router'
-import Login from './Componet/Login'
-
+import Home from './Pages/Home'
 const App = () => {
 const myroute = createBrowserRouter(createRoutesFromElements(
-  <Route index element={<Login/>}/>
+  <Route index element={<Home/>}/>
 ))
 
   return (
